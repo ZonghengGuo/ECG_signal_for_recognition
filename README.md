@@ -1,6 +1,13 @@
 A knowledge distillation method based on ECG signal for identity recognition
 
+1. Data preprocessing
 ```bash
-pip install -r requirements.txt
+python dataset_process/vsmdb_dataset.py```
 
-knowledge
+2. Training
+```bash
+python train.py```
+
+3. Visualize
+```bash
+python Vision_test.py```
